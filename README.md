@@ -1,2 +1,4 @@
 # WeiboCrawler
-新浪微博的爬虫
+新浪微博的爬虫。
+
+其中WeiboLocationCrawler是对签到页进行爬取的项目，WeiboUserInfoCrawler是对用户信息进行爬取的项目（需要用到你自己的cookie）。
