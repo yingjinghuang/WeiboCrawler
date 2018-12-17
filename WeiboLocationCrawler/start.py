@@ -10,8 +10,11 @@ import pandas
 import sqlite3
 
 if __name__ == '__main__':
+    ########################### 自己设置区 ###############################
     emailname=None
     emailpassword=None
+    #####################################################################
+
     # 登录你的邮箱
     yag = yagmail.SMTP(user = emailname, password = emailpassword, host = 'smtp.qq.com')
 
@@ -20,8 +23,6 @@ if __name__ == '__main__':
     n=temp_pd.shape[0]
 
     while True:
-
-
 
         time_start=time.time()
 
