@@ -1,4 +1,4 @@
-# 基于微博签到页的微博爬虫
+# 微博签到页爬虫
 
 项目链接：https://github.com/RealIvyWong/WeiboCrawler/tree/master/WeiboLocationCrawler
 
