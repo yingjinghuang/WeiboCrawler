@@ -8,7 +8,7 @@
 
 关于**微博签到页**打个比方，就是类似这个https://weibo.com/p/100101B2094757D069A7FE449F
 
-![1543409340810](https://github.com/RealIvyWong/BlogBackup/raw/master/assets/1543409340810.png)
+![1543409340810](https://github.com/RealIvyWong/ImageHosting/raw/master/assets/1543409340810.png)
 
 顺便一说，这个页面是不用微博登录就可以访问的。所以方便很多啊（不用模拟登录）。
 
@@ -56,21 +56,21 @@ pip install yagmail pandas bs4
 
 如果开始成功运行之后，控制台输出大概是这样的。先获取代理ip（这可能需要10分钟左右？）。
 
-![1545037686110](https://github.com/RealIvyWong/BlogBackup/raw/master/assets/1545037686110.png)
+![1545037686110](https://github.com/RealIvyWong/ImageHosting/raw/master/assets/1545037686110.png)
 
 然后获取完代理就一个一个地点开始爬，像这样。
 
-![1545037751972](https://github.com/RealIvyWong/BlogBackup/raw/master/assets/1545037751972.png)
+![1545037751972](https://github.com/RealIvyWong/ImageHosting/raw/master/assets/1545037751972.png)
 
 这个页数是由那个签到点的微博数定的，如果很冷门，可能就十几页甚至几页。当然，最多新浪只会让我们爬150页，所以不是这个签到点的所有数据都能爬到。
 
 得到的`weibo.sqlite`结构是包含三个表，`weibo`表（用来存储微博具体的信息）、`pic`表（用来存储微博图片的url，因为一条微博可能有多张图）和`picweibo`表（建立pic的id和weibo的id的联系的表）。
 
-![1545038005026](https://github.com/RealIvyWong/BlogBackup/raw/master/assets/1545038005026.png)
+![1545038005026](https://github.com/RealIvyWong/ImageHosting/raw/master/assets/1545038005026.png)
 
-![1545038022806](https://github.com/RealIvyWong/BlogBackup/raw/master/assets/1545038022806.png)
+![1545038022806](https://github.com/RealIvyWong/ImageHosting/raw/master/assets/1545038022806.png)
 
-![1545038040195](https://github.com/RealIvyWong/BlogBackup/raw/master/assets/1545038040195.png)
+![1545038040195](https://github.com/RealIvyWong/ImageHosting/raw/master/assets/1545038040195.png)
 
 ## 6 Contact Me
 

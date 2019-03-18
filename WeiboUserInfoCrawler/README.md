@@ -44,11 +44,11 @@ pip install yagmail pandas bs4 numpy
 
 如果开始成功运行之后，控制台输出大概是这样的。
 
-![1545039042299](https://github.com/RealIvyWong/BlogBackup/raw/master/assets/1545039042299.png)
+![1545039042299](https://github.com/RealIvyWong/ImageHosting/raw/master/assets/1545039042299.png)
 
 得到的`user.sqlite`结构就只有user一个表。
 
-![1545039128211](https://github.com/RealIvyWong/BlogBackup/raw/master/assets/1545039128211.png)
+![1545039128211](https://github.com/RealIvyWong/ImageHosting/raw/master/assets/1545039128211.png)
 
 ## 6 Contact Me
 
