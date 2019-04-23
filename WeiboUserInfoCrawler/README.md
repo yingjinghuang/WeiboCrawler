@@ -55,3 +55,5 @@ pip install yagmail pandas bs4 numpy
 如果有什么Bug，或者改进建议。
 
 请联系我！(924154233@qq.com) 
+
+【注】本人真的超级社恐，所以请各位真别加我QQ。有问题发我邮件或者提issue，我看到都会第一时间回复的。感谢！
