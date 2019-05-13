@@ -24,7 +24,11 @@ git clone https://github.com/RealIvyWong/WeiboCrawler.git
 
 ## 文件说明
 
-**WeiboLocationCrawler**是对**签到页**进行爬取的项目，**WeiboUserInfoCrawler**是对**用户信息**进行爬取的项目（需要用到你自己的cookie）。
+**WeiboLocationCrawler**是对**签到页**进行爬取的项目
+
+**WeiboUserInfoCrawler**是对**用户信息**进行爬取的项目（需要用到你自己的cookie）。
+
+**WeiboRepoandComm**是对**单条微博的评论或者转发**进行爬取的项目（可能需要用到你自己的cookie）。
 
 具体项目介绍，请参考具体项目页的README。
 
