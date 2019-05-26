@@ -70,15 +70,15 @@
 
 ![1557762965481](https://github.com/RealIvyWong/ImageHosting/raw/master/assets/1557762965481.png)
 
-## 5 爬取细节
+## 6 爬取细节
 
 想要了解一下爬取的细节的话，看这个文件夹里的 **Method.md** 文件。大致讲了一下我的代码的思路。
 
-## 6 Contact Me
+## 7 Contact Me
 
-如果有什么建议或意见，欢迎联系我（huangyingjing@whu.edu.cn)或者提issue！
+如果有什么建议或意见，欢迎联系我（huangyingjing@whu.edu.cn)或者提 issue！
 
-## 7 请我喝杯咖啡
+## 8 请我喝杯咖啡
 
 如果我的代码帮助到了你，欢迎你请我喝杯咖啡~
 
