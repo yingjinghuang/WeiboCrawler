@@ -26,7 +26,7 @@
 >
 > 对于电脑端 weibo.com 来说，点击一条微博的评论处的查看更多，就会跳转这条微博的微博页。类似下图。
 >
-> ![1557762440364](https://github.com/RealIvyWong/ImageHosting/raw/master/assets/1557762440364.png)
+> ![1557762440364](assets/1557762440364.png)
 >
 > 而地址栏中的网址`<https://weibo.com/1929075382/Hu2bGcN5r?filter=hot&root_comment_id=0&type=comment#_rnd1557761434227>`中的`Hu2bGcN5r`就是这条微博的二进制 id 了。其实微博还有数字 id ，但是都一样，不用 care 这么多。
 
@@ -50,11 +50,11 @@
 
 如果开始成功运行之后，控制台输出大概是这样的。先获取代理 ip（这可能需要 5 分钟左右？）。
 
-![1557762195827](https://github.com/RealIvyWong/ImageHosting/raw/master/assets/1557762195827.png)
+![1557762195827](assets/1557762195827.png)
 
 然后获取完代理就一页一页的转发评论开始爬，限制是最多爬 100 页，所以最多可能只能爬个 1000 条的样子。运行时像下图这样，我爬的示例微博评论有点少，所以才两页。
 
-![1557762990107](https://github.com/RealIvyWong/ImageHosting/raw/master/assets/1557762990107.png)
+![1557762990107](assets/1557762990107.png)
 
 得到的`weibo.sqlite`结构是包含一个表，如果爬的是转发，就是 repost 表；爬的是评论就是 comment 表。
 
@@ -62,13 +62,13 @@
 
 表的字段有 id（序号）, mid（转发微博的 id）, uid（用户 id）, user（用户名）, content（转发内容）, time（转发时间）, root_mid（原微博 id)。
 
-![1557763634145](https://github.com/RealIvyWong/ImageHosting/raw/master/assets/1557763634145.png)
+![1557763634145](assets/1557763634145.png)
 
 ——**comment 表**
 
 表的字段有 id（序号）, cid（评论 id）, uid（用户 id）, user（用户名）, content（评论内容）, time（评论时间）, root_mid（原微博 id)。
 
-![1557762965481](https://github.com/RealIvyWong/ImageHosting/raw/master/assets/1557762965481.png)
+![1557762965481](assets/1557762965481.png)
 
 ## 6 爬取细节
 
@@ -77,9 +77,3 @@
 ## 7 Contact Me
 
 如果有什么建议或意见，欢迎联系我（huangyingjing@whu.edu.cn)或者提 issue！
-
-## 8 请我喝杯咖啡
-
-如果我的代码帮助到了你，欢迎你请我喝杯咖啡~
-
-<img src="https://github.com/RealIvyWong/ImageHosting/raw/master/assets/支付宝收款码.jpg" height="30%" width="30%"> <img src="https://github.com/RealIvyWong/ImageHosting/raw/master/assets/微信收款码.png" height="30%" width="30%">

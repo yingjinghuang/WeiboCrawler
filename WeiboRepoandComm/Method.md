@@ -14,7 +14,7 @@
 
 获取的是 json 数据。结构如下图所示。其中的0-9就是每条转发或者评论的详细信息。
 
-![1557764155552](https://github.com/RealIvyWong/ImageHosting/raw/master/assets/1557764155552.png)
+![1557764155552](assets/1557764155552.png)
 
 但是这两个网页基本上都只能爬个 100 页左右，所以最多爬可能大概 1000 条左右就返回的 ok 值为 0 了。
 
@@ -94,7 +94,3 @@ def getJson(mid,page,type,ippool):
 ## Contact Me
 
 如果有什么建议或意见，欢迎联系我（huangyingjing@whu.edu.cn)或者提issue！
-
-
-
-【注】本人真的超级社恐，所以请各位真别加我QQ。有问题发我邮件或者提issue，我看到都会第一时间回复的。感谢！
