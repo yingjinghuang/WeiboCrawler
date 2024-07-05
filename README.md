@@ -32,10 +32,6 @@ git clone https://github.com/RealIvyWong/WeiboCrawler.git
 
 具体项目介绍，请参考具体项目页的README。
 
-## 联系我
-
-如果有什么建议或意见，欢迎联系我（huangyingjing@whu.edu.cn)或者提issue！
-
 
 
 
