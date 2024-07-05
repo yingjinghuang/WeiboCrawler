@@ -1,10 +1,7 @@
 # WeiboCrawler
 
-![](https://img.shields.io/github/license/realivywong/WeiboCrawler.svg)![](https://img.shields.io/github/release-pre/realivywong/WeiboCrawler.svg)![](https://img.shields.io/github/downloads/realivywong/WeiboCrawler/total.svg)
-
-![](https://img.shields.io/github/watchers/realivywong/WeiboCrawler.svg?style=social)![](https://img.shields.io/github/stars/realivywong/WeiboCrawler.svg?style=social)![](https://img.shields.io/github/forks/realivywong/WeiboCrawler.svg?style=social)
-
-
+> [!CAUTION]
+> 目前似乎已经失效，包括微博的url和免费代理。
 
 新浪微博的爬虫。
 
@@ -15,7 +12,7 @@
 使用clone
 
 ```
-git clone https://github.com/RealIvyWong/WeiboCrawler.git
+git clone https://github.com/yingjinghuang/WeiboCrawler.git
 ```
 
 或者直接**Download ZIP**获取所有文件
